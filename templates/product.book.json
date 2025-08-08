@@ -1,0 +1,151 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "vendor": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "{{ product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {}
+        },
+        "price": {
+          "type": "price",
+          "settings": {}
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button",
+            "swatch_shape": "circle"
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "custom_liquid_QFwq4q": {
+          "type": "custom_liquid",
+          "disabled": true,
+          "settings": {
+            "custom_liquid": "<style>.custom.form__label{margin-bottom: 0.6rem}.field.custom{margin-top:0}.custom .field__input{padding-top:0.8rem}</style>  \n<label class=\"form__label custom\" for=\"add-a-note\">Add a Note</label>\n<div class=\"field custom\">\n    <input class=\"field__input\" form=\"{{ 'product-form-' | append: section.id }}\" type=\"text\" id=\"add-a-note\" name=\"properties[Add a Note]\">\n</div>"
+          }
+        },
+        "custom_liquid_9kX8ft": {
+          "type": "custom_liquid",
+          "disabled": true,
+          "settings": {
+            "custom_liquid": "<style>.custom-checkbox:hover.custom-checkbox:after,.custom-checkbox:after{box-shadow:none}.custom-checkbox{align-items: center}</style>\n<div class=\"field custom-checkbox\"> \n    <input type=\"checkbox\" name=\"properties[Gift Wrapping]\"form=\"{{ 'product-form-' | append: section.id }}\" value=\"Yes\" id=\"gift-wrapping\">\n    <label style=\"margin-left: 5px;margin-bottom: 0;\" class=\"form__label\" for=\"gift-wrapping\">Gift Wrapping</label><br>\n</div>"
+          }
+        },
+        "custom_liquid_88zBhz": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<p>Add Furoshiki Gift Wrapping </p>\n<h5> Wrap your copy in a beautiful furoshiki cloth</5>"
+          }
+        },
+        "complementary_mqJ9T3": {
+          "type": "complementary",
+          "settings": {
+            "block_heading": "",
+            "make_collapsible_row": false,
+            "icon": "price_tag",
+            "product_list_limit": 10,
+            "products_per_page": 4,
+            "pagination_style": "counter",
+            "image_ratio": "square",
+            "enable_quick_add": true
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": true
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {}
+        },
+        "share": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "vendor",
+        "title",
+        "price",
+        "variant_picker",
+        "quantity_selector",
+        "custom_liquid_QFwq4q",
+        "custom_liquid_9kX8ft",
+        "custom_liquid_88zBhz",
+        "complementary_mqJ9T3",
+        "buy_buttons",
+        "description",
+        "share"
+      ],
+      "settings": {
+        "enable_sticky_info": true,
+        "color_scheme": "scheme-1",
+        "media_size": "medium",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "gallery_layout": "thumbnail_slider",
+        "mobile_thumbnails": "show",
+        "media_position": "left",
+        "image_zoom": "lightbox",
+        "hide_variants": true,
+        "enable_video_looping": false,
+        "padding_top": 36,
+        "padding_bottom": 12
+      }
+    },
+    "related-products": {
+      "type": "related-products",
+      "custom_css": [
+        "{font-weight: bold;}",
+        ".price {text-align: center;}",
+        "h3 {font-weight: bold; text-align: center;}"
+      ],
+      "settings": {
+        "heading": "<strong>You may also like</strong>",
+        "heading_size": "h2",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "columns_mobile": "2",
+        "color_scheme": "scheme-1",
+        "image_ratio": "square",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "padding_top": 36,
+        "padding_bottom": 28
+      }
+    }
+  },
+  "order": [
+    "main",
+    "related-products"
+  ]
+}
