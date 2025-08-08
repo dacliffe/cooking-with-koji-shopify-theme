@@ -1,0 +1,97 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "custom_css": [
+        "h1 {text-align: center;}"
+      ],
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "collection_list_7QdHF6": {
+      "type": "collection-list",
+      "blocks": {
+        "featured_collection_dXYHbw": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "workshops"
+          }
+        },
+        "featured_collection_3VMLNW": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "miso"
+          }
+        },
+        "featured_collection_TKPg43": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "flavoure-d-miso"
+          }
+        },
+        "featured_collection_mddRRN": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "crafting-tool"
+          }
+        },
+        "featured_collection_x8pnqk": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "cooking-bowl"
+          }
+        },
+        "featured_collection_FT46Yc": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "best-sellers"
+          }
+        },
+        "featured_collection_MD9rQQ": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "gift-ideas"
+          }
+        }
+      },
+      "block_order": [
+        "featured_collection_dXYHbw",
+        "featured_collection_3VMLNW",
+        "featured_collection_TKPg43",
+        "featured_collection_mddRRN",
+        "featured_collection_x8pnqk",
+        "featured_collection_FT46Yc",
+        "featured_collection_MD9rQQ"
+      ],
+      "name": "t:sections.collection-list.presets.name",
+      "settings": {
+        "title": "Collections",
+        "heading_size": "h1",
+        "image_ratio": "square",
+        "columns_desktop": 4,
+        "color_scheme": "",
+        "show_view_all": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "collection_list_7QdHF6"
+  ]
+}
