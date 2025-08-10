@@ -85,49 +85,86 @@
             "link_label": "",
             "link": ""
           }
-        },
-        "column_xdEnc7": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/The_Japanese_Art_of_Pickling_and_Fermenting_sample_spreads_Page_02.jpg",
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_KWwYrC": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/The_Japanese_Art_of_Pickling_and_Fermenting_sample_spreads_Page_04.jpg",
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
         }
       },
       "block_order": [
         "column_3QrWed",
-        "column_VUUfaK",
-        "column_xdEnc7",
-        "column_KWwYrC"
+        "column_VUUfaK"
       ],
       "settings": {
         "title": "<strong>Yoko's cookbook! Publish in  Sep 2025</strong>",
         "heading_size": "h2",
         "image_width": "full",
-        "image_ratio": "portrait",
-        "button_label": "Pre-order now for a signed book",
+        "image_ratio": "square",
+        "button_label": "",
         "button_link": "shopify://products/the-japanese-art-of-pickling-fermenting-signed-copy",
-        "columns_desktop": 4,
+        "columns_desktop": 2,
         "column_alignment": "center",
         "background_style": "none",
         "color_scheme": "scheme-1",
         "columns_mobile": "2",
         "swipe_on_mobile": false,
         "padding_top": 32,
-        "padding_bottom": 32
+        "padding_bottom": 0
+      }
+    },
+    "two_column_images_tVT4MH": {
+      "type": "two-column-images",
+      "blocks": {
+        "column_krGRHz": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/The_Japanese_Art_of_Pickling_and_Fermenting_sample_spreads_Page_02.jpg"
+          }
+        },
+        "column_HMdprX": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/The_Japanese_Art_of_Pickling_and_Fermenting_sample_spreads_Page_04.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "column_krGRHz",
+        "column_HMdprX"
+      ],
+      "name": "Two Column Images",
+      "settings": {
+        "title": "",
+        "heading_size": "h2",
+        "image_ratio": "adapt",
+        "background_style": "primary",
+        "color_scheme": "background-1",
+        "padding_top": 20,
+        "padding_bottom": 0
+      }
+    },
+    "rich_text_r7tXEn": {
+      "type": "rich-text",
+      "blocks": {
+        "button_pjxPYX": {
+          "type": "button",
+          "settings": {
+            "button_label": "Pre-order now for a signed book",
+            "button_link": "shopify://products/the-japanese-art-of-pickling-fermenting-signed-copy",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "button_pjxPYX"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 20
       }
     },
     "featured_collection": {
@@ -576,6 +613,8 @@
     "image_banner_gbm8kt",
     "slideshow_bmcjTT",
     "multicolumn_GdHLCm",
+    "two_column_images_tVT4MH",
+    "rich_text_r7tXEn",
     "featured_collection",
     "multicolumn_MkikTG",
     "image_banner_JWpX4y",
