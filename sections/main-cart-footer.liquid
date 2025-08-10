@@ -128,6 +128,31 @@
         {% endfor %}
 
         <div id="cart-errors"></div>
+
+        {%- comment -%}
+          Check if product with ID 14693798576493 is in cart and display pre-order message
+          Checking by variant ID, product ID, and product title as fallback
+        {%- endcomment -%}
+        {%- assign show_preorder_message = false -%}
+        {%- for item in cart.items -%}
+          {%- if item.variant.id == 14693798576493
+            or item.product.id == 14693798576493
+            or item.product.title contains 'Japanese art of PICKLING'
+          -%}
+            {%- assign show_preorder_message = true -%}
+            {%- break -%}
+          {%- endif -%}
+        {%- endfor -%}
+        {%- if show_preorder_message -%}
+          <div class="cart__preorder-notice">
+            <p
+              class="caption-large"
+              style="text-align: center; margin-top: 20px; padding: 15px; background-color: #f8f8f8; border-radius: 5px; color: #333;"
+            >
+              Book Pre-orders will be dispatched on 02/09/2025
+            </p>
+          </div>
+        {%- endif -%}
       </div>
     </div>
   </div>
@@ -147,7 +172,7 @@
     {
       "type": "header",
       "content": "t:sections.all.padding.section_padding_heading"
-    },    
+    },
     {
       "type": "range",
       "id": "padding_top",
