@@ -1,0 +1,213 @@
+{{ 'section-multicolumn.css' | asset_url | stylesheet_tag }}
+
+{%- style -%}
+  .section-{{ section.id }}-padding {
+    padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+    padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+  }
+
+  @media screen and (min-width: 750px) {
+    .section-{{ section.id }}-padding {
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+{%- endstyle -%}
+
+<div class="multicolumn color-{{ section.settings.color_scheme }} gradient background-{{ section.settings.background_style }}{% if section.settings.title == blank %} no-heading{% endif %}">
+  <div class="page-width section-{{ section.id }}-padding isolate">
+    {%- unless section.settings.title == blank -%}
+      <div class="title-wrapper-with-link title-wrapper--self-padded-mobile title-wrapper--no-top-margin multicolumn__title">
+        <h2 class="title inline-richtext {{ section.settings.heading_size }}">
+          {{ section.settings.title }}
+        </h2>
+      </div>
+    {%- endunless -%}
+
+    <ul
+      class="multicolumn-list contains-content-container grid grid--1-col-tablet-down grid--2-col-desktop"
+      role="list"
+    >
+      {%- liquid
+        assign highest_ratio = 0
+        for block in section.blocks
+          if block.settings.image.aspect_ratio > highest_ratio
+            assign highest_ratio = block.settings.image.aspect_ratio
+          endif
+        endfor
+      -%}
+
+      {%- for block in section.blocks -%}
+        {%- assign empty_column = '' -%}
+        {%- if block.settings.image == blank -%}
+          {%- assign empty_column = ' multicolumn-list__item--empty' -%}
+        {%- endif -%}
+
+        <li class="multicolumn-list__item grid__item{{ empty_column }}" {{ block.shopify_attributes }}>
+          <div class="multicolumn-card content-container">
+            {%- if block.settings.image != blank -%}
+              <div class="multicolumn-card__image-wrapper multicolumn-card__image-wrapper--full-width">
+                <div
+                  class="media media--transparent media--{{ section.settings.image_ratio }}"
+                  {% if section.settings.image_ratio == 'adapt' %}
+                    style="padding-bottom: {{ 1 | divided_by: highest_ratio | times: 100 }}%;"
+                  {% endif %}
+                >
+                  {%- liquid
+                    assign grid_space_desktop = 100 | append: 'px'
+                    assign grid_space_mobile = 30 | append: 'px'
+                  -%}
+                  {% capture sizes %}
+                    (min-width: {{ settings.page_width }}px) calc(({{ settings.page_width }}px - {{ grid_space_desktop }}) / 2),
+                    (min-width: 750px) calc((100vw - {{ grid_space_desktop }}) / 2),
+                    calc(100vw - {{ grid_space_mobile }})
+                  {% endcapture %}
+                  {{
+                    block.settings.image
+                    | image_url: width: 1600
+                    | image_tag:
+                      widths: '165, 360, 535, 750, 1070, 1500, 1600',
+                      sizes: sizes,
+                      class: 'multicolumn-card__image'
+                  }}
+                </div>
+              </div>
+            {%- endif -%}
+          </div>
+        </li>
+      {%- endfor -%}
+    </ul>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Two Column Images",
+  "class": "section",
+  "tag": "section",
+  "disabled_on": {
+    "groups": ["header", "footer"]
+  },
+  "settings": [
+    {
+      "type": "inline_richtext",
+      "id": "title",
+      "default": "Two Column Images",
+      "label": "Heading"
+    },
+    {
+      "type": "select",
+      "id": "heading_size",
+      "options": [
+        {
+          "value": "h2",
+          "label": "Small"
+        },
+        {
+          "value": "h1",
+          "label": "Medium"
+        },
+        {
+          "value": "h0",
+          "label": "Large"
+        }
+      ],
+      "default": "h1",
+      "label": "Heading size"
+    },
+    {
+      "type": "select",
+      "id": "image_ratio",
+      "options": [
+        {
+          "value": "adapt",
+          "label": "Adapt to image"
+        },
+        {
+          "value": "portrait",
+          "label": "Portrait"
+        },
+        {
+          "value": "square",
+          "label": "Square"
+        }
+      ],
+      "default": "adapt",
+      "label": "Image ratio"
+    },
+    {
+      "type": "select",
+      "id": "background_style",
+      "options": [
+        {
+          "value": "none",
+          "label": "None"
+        },
+        {
+          "value": "primary",
+          "label": "Primary"
+        }
+      ],
+      "default": "primary",
+      "label": "Background style"
+    },
+    {
+      "type": "color_scheme",
+      "id": "color_scheme",
+      "label": "Color scheme",
+      "default": "scheme-1"
+    },
+    {
+      "type": "header",
+      "content": "Section padding"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "Top padding",
+      "default": 36
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "Bottom padding",
+      "default": 36
+    }
+  ],
+  "blocks": [
+    {
+      "type": "column",
+      "name": "Column",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Two Column Images",
+      "blocks": [
+        {
+          "type": "column"
+        },
+        {
+          "type": "column"
+        }
+      ]
+    }
+  ],
+  "max_blocks": 2
+}
+{% endschema %}
