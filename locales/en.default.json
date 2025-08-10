@@ -313,7 +313,8 @@
       "login": {
         "title": "Have an account?",
         "paragraph_html": "<a href=\"{{ link }}\" class=\"link underlined-link\">Log in</a> to check out faster."
-      }
+      },
+      "dispatch_notice": "Please note: Delivery will be after {{ date }} when I return to Australia."
     },
     "footer": {
       "payment": "Payment methods"

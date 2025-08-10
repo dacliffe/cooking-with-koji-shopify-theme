@@ -590,6 +590,17 @@
           </div>
         {%- endif -%}
 
+        {%- if settings.dispatch_active and settings.dispatch_date != blank -%}
+          <div class="cart-drawer__dispatch-notice">
+            <p
+              class="caption"
+              style="text-align: center; margin: 15px 0; padding: 12px; background-color: #fff3cd; border: 1px solid #ffeaa7; border-radius: 5px; color: #856404; font-size: 14px;"
+            >
+              {{ 'sections.cart.dispatch_notice' | t: date: settings.dispatch_date }}
+            </p>
+          </div>
+        {%- endif -%}
+
         <div class="cart__ctas" {{ block.shopify_attributes }}>
           <button
             type="submit"

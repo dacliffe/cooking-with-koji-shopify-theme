@@ -1400,6 +1400,23 @@
     ]
   },
   {
+    "name": "Dispatch Settings",
+    "settings": [
+      {
+        "type": "checkbox",
+        "id": "dispatch_active",
+        "label": "Enable dispatch notification",
+        "default": false
+      },
+      {
+        "type": "text",
+        "id": "dispatch_date",
+        "label": "Dispatch date",
+        "placeholder": "Enter date when dispatch will resume"
+      }
+    ]
+  },
+  {
     "name": "t:settings_schema.cart.name",
     "settings": [
       {
