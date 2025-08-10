@@ -28,6 +28,14 @@
           "type": "price",
           "settings": {}
         },
+        "inventory_block": {
+          "type": "inventory",
+          "settings": {
+            "text_style": "body",
+            "inventory_threshold": 10,
+            "show_inventory_quantity": true
+          }
+        },
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
@@ -101,6 +109,7 @@
         "vendor",
         "title",
         "price",
+        "inventory_block",
         "variant_picker",
         "quantity_selector",
         "custom_liquid_QFwq4q",
@@ -152,8 +161,5 @@
       }
     }
   },
-  "order": [
-    "main",
-    "related-products"
-  ]
+  "order": ["main", "related-products"]
 }
