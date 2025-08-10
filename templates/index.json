@@ -323,61 +323,94 @@
         "padding_bottom": 8
       }
     },
-    "collection_list_pEAyFE": {
-      "type": "collection-list",
+    "multicolumn_4CWL7h": {
+      "type": "multicolumn",
       "blocks": {
-        "featured_collection_majdnM": {
-          "type": "featured_collection",
+        "column_yKjMYk": {
+          "type": "column",
           "settings": {
-            "collection": "organic-miso"
+            "image": "shopify://shop_images/2A0F2A34-12D2-469D-9290-C0AADB10E527_1_105_c_2454c5e7-c749-4196-a94a-68b008f2de5a.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "Organi Miso",
+            "link": "shopify://collections/organic-miso"
           }
         },
-        "featured_collection_bHKnPx": {
-          "type": "featured_collection",
+        "column_NktGzj": {
+          "type": "column",
           "settings": {
-            "collection": "crafting-tool"
+            "image": "shopify://shop_images/YOKO23480_2e17ef68-21f8-4d43-874a-7f2f007617d3_jpg.webp",
+            "title": "",
+            "text": "",
+            "link_label": "Kitchen Goods",
+            "link": "shopify://collections/crafting-tool"
           }
         },
-        "featured_collection_ry8pmC": {
-          "type": "featured_collection",
+        "column_PNQMKr": {
+          "type": "column",
           "settings": {
-            "collection": "tea-towels"
+            "image": "shopify://shop_images/N1q9ePKKXIb9yfhCMre3dbVbg_jpg.webp",
+            "title": "",
+            "text": "",
+            "link_label": "Tea Towels",
+            "link": "shopify://collections/tea-towels"
           }
         },
-        "featured_collection_xbLQtq": {
-          "type": "featured_collection",
+        "column_fhTtHj": {
+          "type": "column",
           "settings": {
-            "collection": "flavoure-d-miso"
+            "image": "shopify://shop_images/pWiLXubRFtPxysx2Lt6nJUGmk_jpg.webp",
+            "title": "",
+            "text": "",
+            "link_label": "Furoshiki",
+            "link": "shopify://collections/flavoure-d-miso"
           }
         },
-        "featured_collection_Jqxp4K": {
-          "type": "featured_collection",
+        "column_y7gUFk": {
+          "type": "column",
           "settings": {
-            "collection": ""
+            "image": "shopify://shop_images/Screen_Shot_2025-07-08_at_11.59.34_am.png",
+            "title": "",
+            "text": "",
+            "link_label": "Gift Cards",
+            "link": "shopify://products/gift-card"
+          }
+        },
+        "column_XRHeeG": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/YOKO23428_jpg.webp",
+            "title": "",
+            "text": "",
+            "link_label": "Workshops",
+            "link": "shopify://collections/workshops"
           }
         }
       },
       "block_order": [
-        "featured_collection_majdnM",
-        "featured_collection_bHKnPx",
-        "featured_collection_ry8pmC",
-        "featured_collection_xbLQtq",
-        "featured_collection_Jqxp4K"
+        "column_yKjMYk",
+        "column_NktGzj",
+        "column_PNQMKr",
+        "column_fhTtHj",
+        "column_y7gUFk",
+        "column_XRHeeG"
       ],
-      "custom_css": [
-        "h3 {text-align: center; font-weight: bold;}"
-      ],
+      "name": "t:sections.multicolumn.presets.name",
       "settings": {
-        "title": "<strong>Shop Online</strong>",
+        "title": "Shop Online",
         "heading_size": "h1",
+        "image_width": "full",
         "image_ratio": "square",
-        "columns_desktop": 5,
-        "color_scheme": "scheme-1",
-        "show_view_all": false,
-        "columns_mobile": "1",
+        "button_label": "",
+        "button_link": "",
+        "columns_desktop": 6,
+        "column_alignment": "left",
+        "background_style": "none",
+        "color_scheme": "",
+        "columns_mobile": "2",
         "swipe_on_mobile": false,
-        "padding_top": 4,
-        "padding_bottom": 0
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "rich_text_CEbcML": {
@@ -387,7 +420,7 @@
           "type": "button",
           "settings": {
             "button_label": "View All",
-            "button_link": "",
+            "button_link": "shopify://pages/collections",
             "button_style_secondary": false,
             "button_label_2": "",
             "button_link_2": "",
@@ -398,14 +431,17 @@
       "block_order": [
         "button_YfjMnX"
       ],
+      "custom_css": [
+        ".contains-content-container,.content-container {--text-boxes-shadow-opacity: 0 !important;}"
+      ],
       "name": "t:sections.rich-text.presets.name",
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
         "color_scheme": "",
         "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
+        "padding_top": 12,
+        "padding_bottom": 0
       }
     },
     "featured_blog_BqnKJt": {
@@ -619,7 +655,7 @@
     "multicolumn_MkikTG",
     "image_banner_JWpX4y",
     "featured_collection_tRq9yt",
-    "collection_list_pEAyFE",
+    "multicolumn_4CWL7h",
     "rich_text_CEbcML",
     "featured_blog_BqnKJt",
     "collapsible_content_6tT67j",
