@@ -79,6 +79,13 @@
             "show_gift_card_recipient": true
           }
         },
+        "text_Webm87": {
+          "type": "text",
+          "settings": {
+            "text": "Pre-orders will be dispatched on 02/09/2025",
+            "text_style": "uppercase"
+          }
+        },
         "description": {
           "type": "description",
           "settings": {}
@@ -101,6 +108,7 @@
         "custom_liquid_88zBhz",
         "complementary_mqJ9T3",
         "buy_buttons",
+        "text_Webm87",
         "description",
         "share"
       ],

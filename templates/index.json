@@ -119,7 +119,7 @@
         "image_width": "full",
         "image_ratio": "portrait",
         "button_label": "Pre-order now for a signed book",
-        "button_link": "",
+        "button_link": "shopify://products/the-japanese-art-of-pickling-fermenting-signed-copy",
         "columns_desktop": 4,
         "column_alignment": "center",
         "background_style": "none",
@@ -292,7 +292,7 @@
         "featured_collection_majdnM": {
           "type": "featured_collection",
           "settings": {
-            "collection": "miso"
+            "collection": "organic-miso"
           }
         },
         "featured_collection_bHKnPx": {
@@ -312,13 +312,20 @@
           "settings": {
             "collection": "flavoure-d-miso"
           }
+        },
+        "featured_collection_Jqxp4K": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": ""
+          }
         }
       },
       "block_order": [
         "featured_collection_majdnM",
         "featured_collection_bHKnPx",
         "featured_collection_ry8pmC",
-        "featured_collection_xbLQtq"
+        "featured_collection_xbLQtq",
+        "featured_collection_Jqxp4K"
       ],
       "custom_css": [
         "h3 {text-align: center; font-weight: bold;}"
