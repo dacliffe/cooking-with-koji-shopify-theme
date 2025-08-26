@@ -145,7 +145,7 @@
         "button_pjxPYX": {
           "type": "button",
           "settings": {
-            "button_label": "Pre-order now for a signed book",
+            "button_label": "Order now for a signed book",
             "button_link": "shopify://products/the-japanese-art-of-pickling-fermenting-signed-copy",
             "button_style_secondary": false,
             "button_label_2": "",
