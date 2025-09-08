@@ -1,1 +1,85 @@
-{"name":"t:sections.header.name","type":"header","sections":{"announcement-bar":{"type":"announcement-bar","blocks":{"announcement-bar-0":{"type":"announcement","settings":{"text":"Pre order for a signed book! The Japanese art of PICKLING & FERMENTING","link":""}},"announcement_Wf7i4j":{"type":"announcement","settings":{"text":"July 19 - Creswick market.   July 20 - Essendon North market","link":""}},"announcement_bHtqp7":{"type":"announcement","settings":{"text":"Book now for August workshops","link":""}}},"block_order":["announcement-bar-0","announcement_Wf7i4j","announcement_bHtqp7"],"custom_css":["span {font-weight: bold;}"],"settings":{"auto_rotate":true,"change_slides_speed":5,"color_scheme":"scheme-fd0d04c7-1cf7-4ace-8bec-c557ba9212a5","show_line_separator":true,"show_social":true,"enable_country_selector":true,"enable_language_selector":true}},"header":{"type":"header","custom_css":["@media screen and (min-width: 990px) {.header--middle-left .header__inline-menu {margin-left: 280px; }}","span {font-weight: bold;}"],"settings":{"logo_position":"middle-left","mobile_logo_position":"center","menu":"main-menu","menu_type_desktop":"dropdown","sticky_header_type":"reduce-logo-size","show_line_separator":true,"color_scheme":"scheme-3","menu_color_scheme":"scheme-fd0d04c7-1cf7-4ace-8bec-c557ba9212a5","enable_country_selector":true,"enable_language_selector":true,"enable_customer_avatar":true,"margin_bottom":0,"padding_top":0,"padding_bottom":0}}},"order":["announcement-bar","header"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "name": "t:sections.header.name",
+  "type": "header",
+  "sections": {
+    "announcement-bar": {
+      "type": "announcement-bar",
+      "blocks": {
+        "announcement-bar-0": {
+          "type": "announcement",
+          "settings": {
+            "text": "Order for a signed copy! The Japanese art of PICKLING & FERMENTING",
+            "link": ""
+          }
+        },
+        "announcement_Wf7i4j": {
+          "type": "announcement",
+          "settings": {
+            "text": "Check Instagram story for everyday breakfast",
+            "link": ""
+          }
+        },
+        "announcement_bHtqp7": {
+          "type": "announcement",
+          "settings": {
+            "text": "Book now for SEP & OCT workshops",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "announcement-bar-0",
+        "announcement_Wf7i4j",
+        "announcement_bHtqp7"
+      ],
+      "custom_css": [
+        "span {font-weight: bold;}"
+      ],
+      "settings": {
+        "auto_rotate": true,
+        "change_slides_speed": 5,
+        "color_scheme": "scheme-fd0d04c7-1cf7-4ace-8bec-c557ba9212a5",
+        "show_line_separator": true,
+        "show_social": true,
+        "enable_country_selector": true,
+        "enable_language_selector": true
+      }
+    },
+    "header": {
+      "type": "header",
+      "custom_css": [
+        "@media screen and (min-width: 990px) {.header--middle-left .header__inline-menu {margin-left: 280px; }}",
+        "span {font-weight: bold;}"
+      ],
+      "settings": {
+        "logo_position": "middle-left",
+        "mobile_logo_position": "center",
+        "menu": "main-menu",
+        "menu_type_desktop": "dropdown",
+        "sticky_header_type": "reduce-logo-size",
+        "show_line_separator": true,
+        "color_scheme": "scheme-3",
+        "menu_color_scheme": "scheme-fd0d04c7-1cf7-4ace-8bec-c557ba9212a5",
+        "enable_country_selector": true,
+        "enable_language_selector": true,
+        "enable_customer_avatar": true,
+        "margin_bottom": 0,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    }
+  },
+  "order": [
+    "announcement-bar",
+    "header"
+  ]
+}

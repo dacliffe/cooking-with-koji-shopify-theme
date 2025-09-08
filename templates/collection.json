@@ -21,7 +21,7 @@
       "type": "main-collection-product-grid",
       "settings": {
         "products_per_page": 20,
-        "columns_desktop": 3,
+        "columns_desktop": 5,
         "columns_mobile": "2",
         "color_scheme": "scheme-1",
         "image_ratio": "portrait",
@@ -44,16 +44,16 @@
           "type": "column",
           "settings": {
             "title": "⭐️⭐️⭐️⭐️⭐️",
-            "text": "<p>I can see how much time you spent on the preparation & preparation to make this workshop for us. Presentation was so beautiful and workshop was so informative. Food was delicious. Thank you very much. I will come back for other workshops.　Jeff</p>",
+            "text": "<p>Your workshop truly　changed my life.     <br/>Adriana</p>",
             "link_label": "",
-            "link": ""
+            "link": "https://admin.shopify.com/store/cooking-with-koji/themes/179942621549/editor?previewPath=%2Fcollections%2Fworkshops&customCss=true&section=template--24992337199469__multicolumn_r8eRNG&block=template--24992337199469__multicolumn_r8eRNG__column_peQxgR&setting=template--24992337199469__multicolumn_r8eRNG__column_peQxgR__title"
           }
         },
         "column_gCEnwd": {
           "type": "column",
           "settings": {
             "title": "⭐️⭐️⭐️⭐️⭐️",
-            "text": "<p>Very delicious, and a very enjoyable and informative workshop Yoko. I now have a lot more ideas on how to use miso and will be trying out this and the other delicious dishes we prepared today. Thank you!　Julie</p>",
+            "text": "<p>I’ve attended all of your workshops, and I really enjoyed every one of them. They were interesting, informative, enjoyable — and delicious! Highly recommended.<br/>Kate</p>",
             "link_label": "",
             "link": ""
           }
@@ -62,7 +62,7 @@
           "type": "column",
           "settings": {
             "title": "⭐️⭐️⭐️⭐️⭐️",
-            "text": "<p>Thank you for sharing your food and culture with me. It was a pleasure to hear about your Japanese upbringing, and see your love of traditions. Monica</p>",
+            "text": "<p>I can see how much time you spent on the preparation to make this workshop for us. Presentation was so beautiful and workshop was so informative. Food was delicious. Thank you very much. I will come back for other workshops. Jeff</p>",
             "link_label": "",
             "link": ""
           }
@@ -79,7 +79,7 @@
         "image_width": "full",
         "image_ratio": "adapt",
         "button_label": "Book now",
-        "button_link": "",
+        "button_link": "https://admin.shopify.com/store/cooking-with-koji/themes/179942621549/editor?previewPath=%2Fcollections%2Fworkshops&customCss=true&section=template--24992337199469__multicolumn_r8eRNG&block=template--24992337199469__multicolumn_r8eRNG__column_peQxgR&setting=template--24992337199469__multicolumn_r8eRNG__column_peQxgR__title",
         "columns_desktop": 3,
         "column_alignment": "left",
         "background_style": "primary",
