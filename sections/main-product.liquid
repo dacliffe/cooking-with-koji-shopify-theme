@@ -149,36 +149,26 @@
                 >
                   {%- if product.selected_or_first_available_variant.inventory_management == 'shopify' -%}
                     {%- if product.selected_or_first_available_variant.inventory_quantity > 0 -%}
-                      {%- if product.selected_or_first_available_variant.inventory_quantity
-                          <= block.settings.inventory_threshold
-                      -%}
-                        <span class="svg-wrapper" style="color: rgb(238, 148, 65)">
-                          {{- 'icon-inventory-status.svg' | inline_asset_content -}}
-                        </span>
-                        {{-
-                          'products.product.inventory_low_stock_show_count'
-                          | t: quantity: product.selected_or_first_available_variant.inventory_quantity
-                        -}}
-                      {%- else -%}
-                        <span class="svg-wrapper" style="color: rgb(62, 214, 96)">
-                          {{- 'icon-inventory-status.svg' | inline_asset_content -}}
-                        </span>
-                        {{-
-                          'products.product.inventory_in_stock_show_count'
-                          | t: quantity: product.selected_or_first_available_variant.inventory_quantity
-                        -}}
-                      {%- endif -%}
+                      <span>
+                        <strong>{{ product.selected_or_first_available_variant.inventory_quantity }}</strong>
+                        {%- if product.selected_or_first_available_variant.inventory_quantity > 1 -%}
+                          {{ ' Bookings ' }}
+                        {%- else -%}
+                          {{ ' Booking ' }}
+                        {%- endif -%}
+                        Available
+                      </span>
+
                     {%- else -%}
                       {%- if product.selected_or_first_available_variant.inventory_policy == 'continue' -%}
-                        <span class="svg-wrapper" style="color: rgb(62, 214, 96)">
-                          {{- 'icon-inventory-status.svg' | inline_asset_content -}}
-                        </span>
-                        {{- 'products.product.inventory_out_of_stock_continue_selling' | t -}}
+                        <span class="svg-wrapper" style="color: rgb(62, 214, 96)"> Bookings Available </span>
                       {%- else -%}
-                        <span class="svg-wrapper" style="color: rgb(200, 200, 200)">
-                          {{- 'icon-inventory-status.svg' | inline_asset_content -}}
+                        <span
+                          No
+                          Bookings
+                          Available
+                        >
                         </span>
-                        {{- 'products.product.inventory_out_of_stock' | t -}}
                       {%- endif -%}
                     {%- endif -%}
                   {%- endif -%}
