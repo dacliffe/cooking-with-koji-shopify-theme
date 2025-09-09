@@ -64,7 +64,7 @@
         "custom_liquid_88zBhz": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<p>Add Furoshiki Gift Wrapping </p>\n<h5> Wrap your copy in a beautiful furoshiki cloth</5>"
+            "custom_liquid": "<p>Add Furoshiki Gift Wrapping </p>\n<h5> Wrap your copy in a beautiful furoshiki cloth</h5>"
           }
         },
         "complementary_mqJ9T3": {
@@ -161,5 +161,8 @@
       }
     }
   },
-  "order": ["main", "related-products"]
+  "order": [
+    "main",
+    "related-products"
+  ]
 }
