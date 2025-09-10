@@ -62,6 +62,24 @@
           "type": "description",
           "settings": {}
         },
+        "collapsible_tab_9y63wa": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Shipping",
+            "icon": "truck",
+            "content": "<p>We offer the following shipping methods to ensure your convenience:</p><p>(However, depending on the products and time of the year (especially summer), I will strongly recommend Express shipping to avoid over fermentation. </p><ul><li><strong>Standard Shipping:</strong> Estimated delivery within <strong>7-10 business days</strong>.</li><li><strong>Express Shipping:</strong> Estimated delivery within  <strong>3-5 business days</strong>.</li></ul><h3><strong>Tracking Information</strong></h3><p>Once your order is shipped, you will receive an email with a tracking number to monitor your shipment’s progress.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_tab_xwkAdj": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Returns",
+            "icon": "return",
+            "content": "<p>If you had any issue with item we sent, please contact us with photo, and we will contact you.</p>",
+            "page": ""
+          }
+        },
         "share": {
           "type": "share",
           "settings": {
@@ -79,6 +97,8 @@
         "custom_liquid_9kX8ft",
         "buy_buttons",
         "description",
+        "collapsible_tab_9y63wa",
+        "collapsible_tab_xwkAdj",
         "share"
       ],
       "settings": {
