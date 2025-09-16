@@ -23,16 +23,6 @@
     "multicolumn_4CWL7h": {
       "type": "multicolumn",
       "blocks": {
-        "column_yKjMYk": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/2A0F2A34-12D2-469D-9290-C0AADB10E527_1_105_c_2454c5e7-c749-4196-a94a-68b008f2de5a.jpg",
-            "title": "",
-            "text": "",
-            "link_label": "Organi Miso",
-            "link": "shopify://collections/organic-miso"
-          }
-        },
         "column_NktGzj": {
           "type": "column",
           "settings": {
@@ -73,16 +63,6 @@
             "link": "shopify://products/gift-card"
           }
         },
-        "column_XRHeeG": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/YOKO23428_jpg.webp",
-            "title": "",
-            "text": "",
-            "link_label": "Workshops",
-            "link": "shopify://collections/workshops"
-          }
-        },
         "column_nwyGyA": {
           "type": "column",
           "settings": {
@@ -105,12 +85,10 @@
         }
       },
       "block_order": [
-        "column_yKjMYk",
         "column_NktGzj",
         "column_PNQMKr",
         "column_fhTtHj",
         "column_y7gUFk",
-        "column_XRHeeG",
         "column_nwyGyA",
         "column_azepAA"
       ],
@@ -122,7 +100,7 @@
         "image_ratio": "square",
         "button_label": "",
         "button_link": "",
-        "columns_desktop": 4,
+        "columns_desktop": 3,
         "column_alignment": "left",
         "background_style": "none",
         "color_scheme": "",
