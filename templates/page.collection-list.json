@@ -138,8 +138,8 @@
         "column_jeKTGn": {
           "type": "column",
           "settings": {
-            "title": "Sarah",
-            "text": "<p>Yoko's linen tea towel is so beautiful! Great quality and a very nice design. I framed one for the wall! It's also great as a gift. </p>",
+            "title": "⭐️⭐️⭐️⭐️⭐️",
+            "text": "<p>Yoko's linen tea towel is so beautiful! Great quality and a very nice design. I framed one for the wall! It's also great as a gift. </p><p><br/><strong>- Sarah</strong></p>",
             "link_label": "",
             "link": ""
           }
@@ -147,8 +147,8 @@
         "column_ihzKic": {
           "type": "column",
           "settings": {
-            "title": "Lisa",
-            "text": "<p>I asked Yoko to wrap the bonito flake shaver with Furoshiki. Such a beautiful gift! My son was so excited.</p>",
+            "title": "⭐️⭐️⭐️⭐️⭐️",
+            "text": "<p>I asked Yoko to wrap the bonito flake shaver with Furoshiki. Such a beautiful gift! My son was so excited.<br/><br/><strong>- Lisa</strong></p>",
             "link_label": "",
             "link": ""
           }
@@ -156,8 +156,8 @@
         "column_e7WTGr": {
           "type": "column",
           "settings": {
-            "title": "Bella",
-            "text": "<p>Having a copper square pan is wonderful! Now I can make Japanese breakfast just like Yoko does every morning. So good!</p>",
+            "title": "⭐️⭐️⭐️⭐️⭐️",
+            "text": "<p>Having a copper square pan is wonderful! Now I can make Japanese breakfast just like Yoko does every morning. So good!<br/><br/><strong>- Bella</strong></p>",
             "link_label": "",
             "link": ""
           }
@@ -170,7 +170,7 @@
       ],
       "name": "t:sections.multicolumn.presets.name",
       "settings": {
-        "title": "Multicolumn",
+        "title": "What Customers Are Saying",
         "heading_size": "h1",
         "image_width": "full",
         "image_ratio": "adapt",
