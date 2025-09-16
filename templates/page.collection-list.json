@@ -116,7 +116,7 @@
       ],
       "name": "t:sections.multicolumn.presets.name",
       "settings": {
-        "title": "Shop Online",
+        "title": "Japanese Living",
         "heading_size": "h1",
         "image_width": "full",
         "image_ratio": "square",
@@ -171,7 +171,7 @@
       "name": "t:sections.multicolumn.presets.name",
       "settings": {
         "title": "What Customers Are Saying",
-        "heading_size": "h1",
+        "heading_size": "h2",
         "image_width": "full",
         "image_ratio": "adapt",
         "button_label": "Button label",
