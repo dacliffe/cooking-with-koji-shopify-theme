@@ -131,10 +131,65 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "multicolumn_UbnE3C": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_jeKTGn": {
+          "type": "column",
+          "settings": {
+            "title": "Sarah",
+            "text": "<p>Yoko's linen tea towel is so beautiful! Great quality and a very nice design. I framed one for the wall! It's also great as a gift. </p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_ihzKic": {
+          "type": "column",
+          "settings": {
+            "title": "Lisa",
+            "text": "<p>I asked Yoko to wrap the bonito flake shaver with Furoshiki. Such a beautiful gift! My son was so excited.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_e7WTGr": {
+          "type": "column",
+          "settings": {
+            "title": "Bella",
+            "text": "<p>Having a copper square pan is wonderful! Now I can make Japanese breakfast just like Yoko does every morning. So good!</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_jeKTGn",
+        "column_ihzKic",
+        "column_e7WTGr"
+      ],
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "title": "Multicolumn",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "button_label": "Button label",
+        "button_link": "",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "main",
-    "multicolumn_4CWL7h"
+    "multicolumn_4CWL7h",
+    "multicolumn_UbnE3C"
   ]
 }
