@@ -37,59 +37,6 @@
         "padding_bottom": 36
       }
     },
-    "multicolumn_r8eRNG": {
-      "type": "multicolumn",
-      "blocks": {
-        "column_peQxgR": {
-          "type": "column",
-          "settings": {
-            "title": "⭐️⭐️⭐️⭐️⭐️",
-            "text": "<p>Yoko's miso soup is the best!!! We only go to the market for her stall. My kids are always excited to have her soup every month.<br/><br/><strong>- Tom</strong></p>",
-            "link_label": "",
-            "link": "https://admin.shopify.com/store/cooking-with-koji/themes/179942621549/editor?previewPath=%2Fcollections%2Fworkshops&customCss=true&section=template--24992337199469__multicolumn_r8eRNG&block=template--24992337199469__multicolumn_r8eRNG__column_peQxgR&setting=template--24992337199469__multicolumn_r8eRNG__column_peQxgR__title"
-          }
-        },
-        "column_gCEnwd": {
-          "type": "column",
-          "settings": {
-            "title": "⭐️⭐️⭐️⭐️⭐️",
-            "text": "<p>The most beautiful stall in the market! We are so lucky to have Yoko here. <br/><br/><strong>- Amanda</strong></p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_TREfbU": {
-          "type": "column",
-          "settings": {
-            "title": "⭐️⭐️⭐️⭐️⭐️",
-            "text": "<p>I bought the whole miso range fromYoko. Her miso is on a completely different level. I'm also a big fan of her pickles.<br/><br/><strong>- Lily</strong></p>",
-            "link_label": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "column_peQxgR",
-        "column_gCEnwd",
-        "column_TREfbU"
-      ],
-      "settings": {
-        "title": "Comments from customers",
-        "heading_size": "h1",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "button_label": "Book now",
-        "button_link": "https://admin.shopify.com/store/cooking-with-koji/themes/179942621549/editor?previewPath=%2Fcollections%2Fworkshops&customCss=true&section=template--24992337199469__multicolumn_r8eRNG&block=template--24992337199469__multicolumn_r8eRNG__column_peQxgR&setting=template--24992337199469__multicolumn_r8eRNG__column_peQxgR__title",
-        "columns_desktop": 3,
-        "column_alignment": "left",
-        "background_style": "primary",
-        "color_scheme": "",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "featured_collection_K48cPr": {
       "type": "featured-collection",
       "name": "t:sections.featured-collection.presets.name",
@@ -123,7 +70,6 @@
   "order": [
     "banner",
     "product-grid",
-    "multicolumn_r8eRNG",
     "featured_collection_K48cPr"
   ]
 }
