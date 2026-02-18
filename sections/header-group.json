@@ -17,7 +17,7 @@
         "announcement-bar-0": {
           "type": "announcement",
           "settings": {
-            "text": "Happy Christmas & new year 2026",
+            "text": "shopping cart → shipping issue",
             "link": ""
           }
         },
@@ -31,7 +31,7 @@
         "announcement_bHtqp7": {
           "type": "announcement",
           "settings": {
-            "text": "Yoko is in Japan! Order dispatch will be after Jan 20, 2026",
+            "text": "We are experiencing some technical difficulties. We are working to resolve them, so please wait a moment",
             "link": ""
           }
         }
