@@ -14,6 +14,13 @@
     "announcement-bar": {
       "type": "announcement-bar",
       "blocks": {
+        "announcement_eKgVhL": {
+          "type": "announcement",
+          "settings": {
+            "text": "Organic brown rice miso - sold out. Next release will be August 2026",
+            "link": ""
+          }
+        },
         "announcement_TzAPpD": {
           "type": "announcement",
           "settings": {
@@ -44,6 +51,7 @@
         }
       },
       "block_order": [
+        "announcement_eKgVhL",
         "announcement_TzAPpD",
         "announcement-bar-0",
         "announcement_Wf7i4j",
