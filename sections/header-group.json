@@ -14,6 +14,13 @@
     "announcement-bar": {
       "type": "announcement-bar",
       "blocks": {
+        "announcement_nmeVmx": {
+          "type": "announcement",
+          "settings": {
+            "text": "Order dispatch will be after 26Jun as Yoko is  in the US for book tour at the moment.",
+            "link": ""
+          }
+        },
         "announcement_eKgVhL": {
           "type": "announcement",
           "settings": {
@@ -24,7 +31,7 @@
         "announcement_TzAPpD": {
           "type": "announcement",
           "settings": {
-            "text": "US book tour : June 10- 23 (Chicago, NYC, San Fransisco and Seattle)",
+            "text": "US book tour : June 10- 25 (Chicago, NYC, San Fransisco and Seattle)",
             "link": ""
           }
         },
@@ -38,7 +45,7 @@
         "announcement_Wf7i4j": {
           "type": "announcement",
           "settings": {
-            "text": "Market :  June 6 (Woodend), June 7 (Castlemaine). No Coburg this month, Sorry!",
+            "text": "Next Market :  July  4 (Woodend), July 5 (Castlemaine) July 18 (Coburg)",
             "link": ""
           }
         },
@@ -51,6 +58,7 @@
         }
       },
       "block_order": [
+        "announcement_nmeVmx",
         "announcement_eKgVhL",
         "announcement_TzAPpD",
         "announcement-bar-0",
