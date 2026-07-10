@@ -14,24 +14,31 @@
     "announcement-bar": {
       "type": "announcement-bar",
       "blocks": {
+        "announcement_VyRWEA": {
+          "type": "announcement",
+          "settings": {
+            "text": "Please wait for workshop schedule a little more...",
+            "link": ""
+          }
+        },
         "announcement_nmeVmx": {
           "type": "announcement",
           "settings": {
-            "text": "Order dispatch will be after 26Jun as Yoko is  in the US for book tour at the moment.",
+            "text": "James Beard Award 2026 Winner 🏆",
             "link": ""
           }
         },
         "announcement_eKgVhL": {
           "type": "announcement",
           "settings": {
-            "text": "Organic brown rice miso - sold out. Next release will be August 2026",
+            "text": "Organic brown rice miso is back now",
             "link": ""
           }
         },
         "announcement_TzAPpD": {
           "type": "announcement",
           "settings": {
-            "text": "US book tour : June 10- 25 (Chicago, NYC, San Fransisco and Seattle)",
+            "text": "Winter joy! Yuzu miso is ready",
             "link": ""
           }
         },
@@ -45,25 +52,18 @@
         "announcement_Wf7i4j": {
           "type": "announcement",
           "settings": {
-            "text": "Next Market :  July  4 (Woodend), July 5 (Castlemaine) July 18 (Coburg)",
-            "link": ""
-          }
-        },
-        "announcement_bHtqp7": {
-          "type": "announcement",
-          "settings": {
-            "text": "Shortlisted for the 2026 James Beard Awards (Single Subject & Visuals categories) !!!!",
+            "text": "Market :  July  4 (Woodend), July 5 (Castlemaine) July 18 (Coburg)",
             "link": ""
           }
         }
       },
       "block_order": [
+        "announcement_VyRWEA",
         "announcement_nmeVmx",
         "announcement_eKgVhL",
         "announcement_TzAPpD",
         "announcement-bar-0",
-        "announcement_Wf7i4j",
-        "announcement_bHtqp7"
+        "announcement_Wf7i4j"
       ],
       "custom_css": [
         "span {font-weight: bold;}"
