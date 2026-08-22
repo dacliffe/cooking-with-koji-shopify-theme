@@ -14,6 +14,13 @@
     "announcement-bar": {
       "type": "announcement-bar",
       "blocks": {
+        "announcement_KzEqkM": {
+          "type": "announcement",
+          "settings": {
+            "text": "The Japanese Art of PICKLING & FERMENTING — now in its third printing!",
+            "link": ""
+          }
+        },
         "announcement_VyRWEA": {
           "type": "announcement",
           "settings": {
@@ -25,13 +32,6 @@
           "type": "announcement",
           "settings": {
             "text": "James Beard Award 2026 Winner 🏆",
-            "link": ""
-          }
-        },
-        "announcement_eKgVhL": {
-          "type": "announcement",
-          "settings": {
-            "text": "Currently experiencing a high volume of orders and enquiries, so responses may take a little longer than usual. I am working through each one individually. Thank you for your patience and understanding.",
             "link": ""
           }
         },
@@ -58,9 +58,9 @@
         }
       },
       "block_order": [
+        "announcement_KzEqkM",
         "announcement_VyRWEA",
         "announcement_nmeVmx",
-        "announcement_eKgVhL",
         "announcement_TzAPpD",
         "announcement-bar-0",
         "announcement_Wf7i4j"
