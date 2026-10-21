@@ -17,7 +17,7 @@
         "announcement_VyRWEA": {
           "type": "announcement",
           "settings": {
-            "text": "Next workshop :  Oct 22, 23, 24.  Dec 11, 12. Booking started",
+            "text": "Next workshop :  Oct 22, 23, 24.  <newly added>Dec 11, 12. Booking started</newly>",
             "link": ""
           }
         },
@@ -25,13 +25,6 @@
           "type": "announcement",
           "settings": {
             "text": "James Beard Award 2026 Winner 🏆",
-            "link": ""
-          }
-        },
-        "announcement_TzAPpD": {
-          "type": "announcement",
-          "settings": {
-            "text": "Winter joy! Yuzu miso is ready",
             "link": ""
           }
         },
@@ -53,7 +46,6 @@
       "block_order": [
         "announcement_VyRWEA",
         "announcement_nmeVmx",
-        "announcement_TzAPpD",
         "announcement-bar-0",
         "announcement_Wf7i4j"
       ],
