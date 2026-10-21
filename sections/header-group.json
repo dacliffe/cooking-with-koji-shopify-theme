@@ -14,13 +14,6 @@
     "announcement-bar": {
       "type": "announcement-bar",
       "blocks": {
-        "announcement_KzEqkM": {
-          "type": "announcement",
-          "settings": {
-            "text": "The Japanese Art of PICKLING & FERMENTING — now in its forth printing!",
-            "link": ""
-          }
-        },
         "announcement_VyRWEA": {
           "type": "announcement",
           "settings": {
@@ -52,13 +45,12 @@
         "announcement_Wf7i4j": {
           "type": "announcement",
           "settings": {
-            "text": "Next Market :  Sep 5 (Woodend), Sep 6 (Castlemaine) Sep 19 (Coburg)",
+            "text": "Next Market :  Nov 7 (Woodend), Nov 8 (Castlemaine)",
             "link": ""
           }
         }
       },
       "block_order": [
-        "announcement_KzEqkM",
         "announcement_VyRWEA",
         "announcement_nmeVmx",
         "announcement_TzAPpD",
